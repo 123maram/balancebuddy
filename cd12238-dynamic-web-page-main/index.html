@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BalanceBuddy</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<nav class="navbar">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+      <li><a href="sign_up_page.html">sign up</a></li>
+		</ul>
+	</nav>
+	<main>
+		<a href="">
+			<img src="./logo/logo-removebg-preview.png" alt="BalanceBuddy logo " class="logo">
+		</a>
+		<h1>BalanceBuddy</h1>
+		<div class="info-container">
+			<p>Age:</p>
+			<input type="text" id="age" placeholder="Enter your age">
+			<p>Height (in cm):</p>
+			<input type="text" id="height" placeholder="Enter your height">
+			<p>Weight (in kg):</p>
+			<input type="text" id="weight" placeholder="Enter your weight">
+			<button id="calculate-btn" class="calculate-btn">Calculate</button>
+		</div>
+		<div class="motivation-container">
+			<button id="motivation-btn">get motivated!</button>
+			<div id="motivation-quote" style="display: none;">
+				<p id="quote"></p>
+				<button id="thank-you-btn">Thank you!</button>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<p>&copy; 2023 BalanceBuddy. All rights reserved.</p>
+	</footer>
+	<script src="./js/script.js"></script>
+</body>
+</html>
